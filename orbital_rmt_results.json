@@ -1,0 +1,83 @@
+{
+  "solar_system": {
+    "name": "Solar System 8 planets (unfolded)",
+    "n": 7,
+    "r": 0.6319,
+    "r_se": 0.0804,
+    "cv": 0.3437,
+    "beta": 2.1881,
+    "ci": [
+      0.5465,
+      0.8702
+    ],
+    "ks_poisson": 0.4533,
+    "ks_goe": 0.1738,
+    "ks_gue": 0.1295,
+    "ks_best": "GUE",
+    "note": "non-resonant, genuine repulsion"
+  },
+  "galilean": {
+    "name": "Galilean moons",
+    "n_bodies": 4,
+    "cv_unfolded": 0.0935,
+    "note": "RESONANCE-LOCKED (CV<0.15): Laplace 1:2:4, NOT RMT repulsion"
+  },
+  "kepler_aligned": {
+    "name": "Kepler 320 systems pooled (aligned)",
+    "n": 810,
+    "r": 0.6738,
+    "r_se": 0.0076,
+    "cv": 0.341,
+    "beta": 2.1099,
+    "ci": [
+      0.6828,
+      0.7158
+    ],
+    "ks_poisson": 0.3396,
+    "ks_goe": 0.1338,
+    "ks_gue": 0.0787,
+    "ks_best": "GUE",
+    "note": "universal GUE repulsion"
+  },
+  "kepler_global_mix": {
+    "name": "Kepler global mix (scrambled)",
+    "n": 827,
+    "r": 0.4372,
+    "r_se": 0.01,
+    "cv": 0.8616,
+    "beta": 0.1846,
+    "ci": [
+      0.4109,
+      0.4524
+    ],
+    "ks_poisson": 0.0691,
+    "ks_goe": 0.1756,
+    "ks_gue": 0.2433,
+    "ks_best": "Poisson",
+    "note": "collapses toward Poisson"
+  },
+  "poisson_null": {
+    "name": "Poisson null (independent clocks)",
+    "n": 810,
+    "r": 0.396,
+    "r_se": 0.0101,
+    "cv": 1.054,
+    "beta": 0.01,
+    "ci": [
+      0.3648,
+      0.4091
+    ],
+    "ks_poisson": 0.0241,
+    "ks_goe": 0.2396,
+    "ks_gue": 0.3027,
+    "ks_best": "Poisson",
+    "note": "control"
+  },
+  "n_systems": 320,
+  "n_planets_total": 1130,
+  "references": {
+    "R_POI": 0.3863,
+    "R_GOE": 0.5307,
+    "R_GUE": 0.6027
+  }
+}
